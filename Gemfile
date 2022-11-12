@@ -22,4 +22,5 @@ gem "heroicon", "~> 1.0"
 group :development do
   gem "web-console"
   gem "debug"
+  gem 'dotenv-rails'
 end
