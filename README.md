@@ -1,5 +1,5 @@
 # 🚀 Rails + Ralix + Tailwind
-
+Original template: https://github.com/ralixjs/rails-ralix-tailwind
 > Starter Kit to build modern Rails applications fast
 
 Powered by:
