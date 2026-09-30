@@ -7,6 +7,10 @@ class User < ApplicationRecord
 
   has_one_attached :avatar
 
+  def self.ransackable_attributes(_auth_object = nil)
+    %w[name email created_at]
+  end
+
   def name
     @name ||= self[:name].presence || email.split("@").first
   end
